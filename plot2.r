@@ -5,7 +5,7 @@
 ## Project 1
 ## plot2.r
 
-## Read in full Power_Power_data_subset_subsetset from working directory
+## Read in full data set from working directory
 Power_Power_data_subset_full <- read.csv("./household_power_consumption.txt", header=T, sep=';', na.strings="?", 
                                          nrows=2075259, check.names=F, stringsAsFactors=F, comment.char="", quote='\"')
 Power_Power_data_subset_full$Date <- as.Date(Power_Power_data_subset_full$Date, format="%d/%m/%Y")
